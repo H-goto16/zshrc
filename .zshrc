@@ -20,7 +20,7 @@ zmodload zsh/complist
 compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
-source /etc/zsh_command_not_found
+# source /etc/zsh_command_not_found
 
 # zsh-autosuggestions
 
@@ -187,4 +187,4 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 # Fish shell like syntax highlighting
 # https://github.com/zsh-users/zsh-syntax-highlighting
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 
+# source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 
