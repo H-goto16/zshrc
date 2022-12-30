@@ -1,7 +1,7 @@
 # Created by newuser for 5.8.1
 # Colorful PS1
 autoload -U colors && colors
-PS1="%B%{$fg[red]%}[%K{red}%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%k %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%"
+eval "$(oh-my-posh init zsh --config ~/ArchLinux/catppuccin.omp.json)"
 
 # History in cache directory
 export HISTSIZE=1000000
