@@ -1,7 +1,7 @@
 # Created by newuser for 5.8.1
 # Colorful PS1
 autoload -U colors && colors
-eval "$(oh-my-posh init zsh --config ~/ArchLinux/catppuccin.omp.json)"
+eval "$(oh-my-posh init zsh)"
 
 # History in cache directory
 export HISTSIZE=1000000
